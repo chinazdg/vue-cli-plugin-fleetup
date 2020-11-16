@@ -1,5 +1,11 @@
 # vue-cli-plugin-fleetup
 
+## development
+**package.json** 
+
+"vue-cli-plugin-fleetup": 
+"file:/Users/karl/Code/Vue/cli/vue-cli-plugin-fleetup"
+
 ## Feature
 - Add Task
 
