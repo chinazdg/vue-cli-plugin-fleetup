@@ -11,6 +11,16 @@
 
 ## Changelogs
 
+### v1.0.3
+2020-11-16
+
+- Fix: console error "onRead" is required
+
+### v1.0.2
+2020-11-16
+
+- replace to ui.js width index.js
+
 ### v1.0.0
 2020-11-16
 
