@@ -5,7 +5,12 @@ module.exports = api => {
     id: 'vue-cli-plugin-fleetup',
     name: 'FleetUp vue-cli-plugin',
     description: 'org.vue.common.description',
-    link: 'https://github.com/chinazdg/vue-cli-plugin-fleetup'
+    link: 'https://github.com/chinazdg/vue-cli-plugin-fleetup',
+    onRead: ({ data, cwd }) => ({
+      prompts: [
+        // 提示符对象
+      ]
+    })
   })
 
   api.addClientAddon({
