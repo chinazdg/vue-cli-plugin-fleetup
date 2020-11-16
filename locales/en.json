@@ -1,0 +1,13 @@
+{
+  "org": {
+    "vue": {
+      "common": {
+        "description": "FleetUp Customer Task for Vue.js"
+      },
+      "tasks": {
+        "pre-task": "Pre-execution of pre-task tasks: elementUi, internationalization",
+        "s3-upload": "deployment to S3"
+      }
+    }
+  }
+}
