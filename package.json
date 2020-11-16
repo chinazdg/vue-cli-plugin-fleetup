@@ -1,0 +1,22 @@
+{
+  "name": "vue-cli-plugin-fleetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinazdg/vue-cli-plugin-fleetup.git"
+  },
+  "keywords": [
+    "fleetup"
+  ],
+  "author": "Karl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinazdg/vue-cli-plugin-fleetup/issues"
+  },
+  "homepage": "https://github.com/chinazdg/vue-cli-plugin-fleetup#readme"
+}
