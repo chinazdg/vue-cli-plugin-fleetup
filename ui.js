@@ -1,17 +1,20 @@
 'use strict'
 
 module.exports = api => {
-  api.describeConfig({
-    id: 'vue-cli-plugin-fleetup',
-    name: 'FleetUp vue-cli-plugin',
-    description: 'org.vue.common.description',
-    link: 'https://github.com/chinazdg/vue-cli-plugin-fleetup',
-    onRead: ({ data, cwd }) => ({
-      prompts: [
-        // 提示符对象
-      ]
-    })
-  })
+  // api.describeConfig({
+  //   id: 'vue-cli-plugin-fleetup',
+  //   name: 'FleetUp vue-cli-plugin',
+  //   description: 'org.vue.common.description',
+  //   link: 'https://github.com/chinazdg/vue-cli-plugin-fleetup',
+  //   onRead: ({ data, cwd }) => ({
+  //     prompts: [
+  //       // todo
+  //     ]
+  //   }),
+  //   onWrite: ({ prompts,answers, data, files, cwd, api}) => {
+  //     // todo
+  //   }
+  // })
 
   api.addClientAddon({
     id: 'org.vue.webpack.client-addon',
